@@ -16,7 +16,7 @@ if [ "$x" == "2" ]; then
   echo "Arch"
   sudo pacman -S git
   cd ~/
-  https://github.com/lucaspapadam/linux.git
+  git clone https://github.com/lucaspapadam/linux.git
   cd ~/linux/
   chmod +x start.sh
   ./start.sh
